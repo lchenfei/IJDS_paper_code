@@ -106,8 +106,8 @@ X3 | X1 ~ N(X1, 1)
 | **Lasso** | `run_lasso()` | L1-regularized logistic regression |
 | **SpAM** | `run_spam()` | Sparse Additive Models with CV-based λ selection |
 | **RF-RFE** | `run_rf_rfe()` | Random Forest with Recursive Feature Elimination |
-| **IS-VS-RF** | `run_is_vs_rf()` | Random Forest with greedy CE ordering + validation selection |
-| **GP-VS** | `run_gp_vs()` | Gaussian Process with Pareto-k filtering + validation selection |
+| **IS-VS-RF** | `run_is_vs_rf()` | Random Forest + validation selection |
+| **GP-VS** | `run_gp_vs()` | Gaussian Process + validation selection |
 
 ## Usage
 
