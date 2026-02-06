@@ -10,7 +10,7 @@
 #' =============================================================================
 
 # Configuration
-ROOT <- setwd("E:/IJDS_paper_code")  # Assumes running from IJDS_paper_code directory
+ROOT <- getwd() # setwd("E:/IJDS_paper_code")  # Assumes running from IJDS_paper_code directory
 RESULTS_DIR <- file.path(ROOT, "Ex1", "results")
 
 # Create results directory if needed
@@ -27,7 +27,7 @@ METHOD_FILES <- list(
   "WAMK-SIS"   = "ex1_wamk.R",
   "SpAM"       = "ex1_SpAM.R",
   "RF-RFE"     = "ex1_randomForest.R",
-  "IS-VS-GP"   = "ex1_GP.R",
+  "IS-VS-GP"   = "ex1_GP_VS.R",
   "IS-VS-RF"   = "ex1_randomForest_VS.R"
 )
 
@@ -155,12 +155,12 @@ if (!interactive()) {
 # =============================================================================
 # Interactive usage example (uncomment to run)
 # =============================================================================
-# result <- run_ex1("Lasso", n_reps = 25, ncores = 25) # Done
+result <- run_ex1("Lasso", n_reps = 25, ncores = 5) # Done
 # result <- run_ex1("IS-CE", n_reps = 25, ncores = 25) # Done
 # result <- run_ex1("IS-Pareto", n_reps = 25, ncores = 25) # Done
 # result <- run_ex1("RF-RFE", n_reps = 25, ncores = 25) # Done
 # result <- run_ex1("WAMK-SIS", n_reps = 25, ncores = 25) # Done
 # result <- run_ex1("SpAM", n_reps = 25, ncores = 25) # Done
 # result <- run_ex1("IS-VS", n_reps = 25, ncores = 25) #Done
-result <- run_ex1("IS-VS-RF", n_reps = 25, ncores = 25)
+# result <- run_ex1("IS-VS-RF", n_reps = 25, ncores = 25)
 # print(result$POE_est)

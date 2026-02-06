@@ -27,7 +27,7 @@ METHOD_FILES <- list(
   "WAMK-SIS"   = "ex2_wamk.R",
   "SpAM"       = "ex2_SpAM.R",
   "RF-RFE"     = "ex2_randomForest.R",
-  "IS-VS-GP"   = "ex2_GP.R",
+  "IS-VS-GP"   = "ex2_GP_VS.R",
   "IS-VS-RF"   = "ex2_randomForest_VS.R"
 )
 

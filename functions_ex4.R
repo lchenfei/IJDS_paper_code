@@ -235,7 +235,7 @@ S_find_ce = function(weight, z, S_all, ls){
 }
 # num, X, Y, l, cb
 sampling_ce_order_greedy_GP = function(num, X, z, l, k){
-  n = dim(sample_X_all)[1]
+  n = dim(X)[1]
   i_all = c()
   ce_all = c()
   h_s_pareto = c()
