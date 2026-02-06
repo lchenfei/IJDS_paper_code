@@ -42,7 +42,7 @@ IJDS_paper_code/
 │       ├── ex2_SpAM.R
 │       ├── ex2_randomForest.R
 │       ├── ex2_randomForest_VS.R
-|       └── ex1_GP_VS.R
+|       └── ex2_GP_VS.R
 │
 ├── Ex3/
 │   ├── ex3_main.R
@@ -53,8 +53,8 @@ IJDS_paper_code/
 │       ├── ex3_wamk.R
 │       ├── ex3_SpAM.R
 │       |── ex3_randomForest.R
-│       ├── ex2_randomForest_VS.R
-|       └── ex1_GP_VS.R
+│       ├── ex3_randomForest_VS.R
+|       └── ex3_GP_VS.R
 │
 └── Ex4/
     ├── ex4_main.R
