@@ -80,7 +80,6 @@ IJDS_paper_code/
 | **Seed Base** | 123 | 1234 | 123 | 123 |
 | **Sampling Structure** | Independent | Correlated | Independent | Independent |
 | **Functions File** | functions_ex1.R | functions_ex2.R | functions_ex3.R | functions_ex4.R |
-| **Number of Methods** | 9 | 8 | 6 | 9 |
 
 ### Sampling Structures
 
@@ -163,9 +162,7 @@ run_method_name(
 | Function | Used In | Description |
 |----------|---------|-------------|
 | `S_find_h_s_ce_order()` | Ex1, Ex2 | Exhaustive CE ordering for small D |
-| `S_find_h_s_ce_order_greedy()` | Ex3 | Greedy CE ordering for medium D |
-| `sampling_ce_order_greedy()` | Ex1, Ex2, Ex4 | Greedy search with Pareto-k filter |
-| `sampling_ce_order_greedy_2()` | Ex3 | Enhanced greedy with retry mechanism |
+| `sampling_ce_order_greedy()` | Ex3, Ex4 | Greedy search with Pareto-k filter |
 | `find_ce_order_greedy()` | IS-CE methods | CE ordering without Pareto-k |
 
 ### Validation Functions
